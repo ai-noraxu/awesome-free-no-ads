@@ -1,0 +1,1031 @@
+{
+  "name": "无广告 · 无付费 · 好用工具清单",
+  "updated": "2026-11-05",
+  "types": {
+    "open": "🟢 开源",
+    "free": "🔵 免费闭源",
+    "paid": "🟡 可选付费"
+  },
+  "categories": [
+    {
+      "id": "system",
+      "title": "🖥️ 系统与桌面效率",
+      "desc": "装完系统第一批该装的东西，全部干净无捆绑。",
+      "items": [
+        {
+          "name": "7-Zip",
+          "url": "https://www.7-zip.org/",
+          "repo": "https://github.com/ip7z/7zip",
+          "desc": "格式通吃的压缩 / 解压工具，界面朴素但极稳。",
+          "type": "open",
+          "platform": "Windows",
+          "note": "只认 7-zip.org，7zip.com 是仿冒站。"
+        },
+        {
+          "name": "Everything",
+          "url": "https://www.voidtools.com/",
+          "desc": "基于文件名索引的秒级全盘搜索，几乎不占资源。",
+          "type": "free",
+          "platform": "Windows"
+        },
+        {
+          "name": "WizTree",
+          "url": "https://www.diskanalyzer.com/",
+          "desc": "直接读 MFT 的磁盘空间分析器，几秒扫完整个盘。",
+          "type": "paid",
+          "platform": "Windows",
+          "note": "个人 / 非商业免费，商业用途需购买授权；软件本身无广告。"
+        },
+        {
+          "name": "PowerToys",
+          "url": "https://learn.microsoft.com/windows/powertoys/",
+          "repo": "https://github.com/microsoft/PowerToys",
+          "desc": "微软官方的 Windows 增强套件：窗口布局、批量重命名、取色、命令面板等。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "TrafficMonitor",
+          "url": "https://github.com/zhongyang219/TrafficMonitor",
+          "desc": "任务栏网速 / CPU / 内存悬浮监控，轻量可换肤。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "LibreHardwareMonitor",
+          "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+          "desc": "硬件温度、风扇、电压监控，开源无推广。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "CrystalDiskInfo",
+          "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+          "repo": "https://github.com/hiyohiyo/CrystalDiskInfo",
+          "desc": "硬盘 SMART 健康状态查看，标准版无广告。",
+          "type": "open",
+          "platform": "Windows",
+          "note": "下载时避开第三方站点提供的「带广告修改版」。"
+        },
+        {
+          "name": "BleachBit",
+          "url": "https://www.bleachbit.org/",
+          "repo": "https://github.com/bleachbit/bleachbit",
+          "desc": "系统垃圾与缓存清理，CCleaner 的干净替代。",
+          "type": "open",
+          "platform": "Windows / Linux"
+        },
+        {
+          "name": "Rufus",
+          "url": "https://rufus.ie/",
+          "repo": "https://github.com/pbatard/rufus",
+          "desc": "启动盘制作，免费、便携、无需安装。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "Ventoy",
+          "url": "https://www.ventoy.net/",
+          "repo": "https://github.com/ventoy/Ventoy",
+          "desc": "一次制作，往 U 盘丢 ISO 就能多系统启动。",
+          "type": "open",
+          "platform": "Windows / Linux / macOS"
+        },
+        {
+          "name": "Clonezilla",
+          "url": "https://clonezilla.org/",
+          "desc": "整盘镜像备份与还原，装机救急用。",
+          "type": "open",
+          "platform": "自启动镜像"
+        },
+        {
+          "name": "GParted",
+          "url": "https://gparted.org/",
+          "desc": "分区调整与格式化，Live USB 里最好用的那一个。",
+          "type": "open",
+          "platform": "Linux Live"
+        },
+        {
+          "name": "Open-Shell",
+          "url": "https://github.com/Open-Shell/Open-Shell-Menu",
+          "desc": "找回经典开始菜单，开源无捆绑。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "Files",
+          "url": "https://files.community/",
+          "repo": "https://github.com/files-community/Files",
+          "desc": "现代版 Windows 文件管理器，标签页、双栏、预览齐全。",
+          "type": "paid",
+          "platform": "Windows",
+          "note": "GitHub 版本免费完整，Microsoft Store 版本收费。"
+        },
+        {
+          "name": "LocalSend",
+          "url": "https://localsend.org/",
+          "repo": "https://github.com/localsend/localsend",
+          "desc": "局域网跨设备互传文件，不走云端、不用登录，AirDrop 的通用版。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Syncthing",
+          "url": "https://syncthing.net/",
+          "repo": "https://github.com/syncthing/syncthing",
+          "desc": "P2P 文件同步，没有中心服务器，也没有容量限制。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "KDE Connect",
+          "url": "https://kdeconnect.kde.org/",
+          "repo": "https://github.com/KDE/kdeconnect-kde",
+          "desc": "手机与电脑互传剪贴板、通知、文件，局域网直连。",
+          "type": "open",
+          "platform": "全平台 / Android"
+        },
+        {
+          "name": "小狼毫 Weasel（Rime）",
+          "url": "https://rime.im/",
+          "repo": "https://github.com/rime/weasel",
+          "desc": "可完全自定义的输入法引擎，本地词库、无联网、无推广。",
+          "type": "open",
+          "platform": "Windows / macOS / Linux"
+        },
+        {
+          "name": "CopyQ",
+          "url": "https://hluk.github.io/CopyQ/",
+          "repo": "https://github.com/hluk/CopyQ",
+          "desc": "带搜索和脚本的剪贴板历史管理。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "ShareX",
+          "url": "https://getsharex.com/",
+          "repo": "https://github.com/ShareX/ShareX",
+          "desc": "截图 / 录屏 / 标注 / 上传一条龙，开源无水印。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "Flameshot",
+          "url": "https://flameshot.org/",
+          "repo": "https://github.com/flameshot-org/flameshot",
+          "desc": "轻量截图与标注，跨平台。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "GlazeWM",
+          "url": "https://github.com/glzr-io/glazewm",
+          "desc": "Windows 平铺窗口管理器，YAML 配置。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "komorebi",
+          "url": "https://github.com/LGUG2Z/komorebi",
+          "desc": "另一款 Windows 平铺窗口管理器，键盘流首选。",
+          "type": "open",
+          "platform": "Windows"
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "title": "📄 办公 · 文档 · 笔记",
+      "desc": "写、读、管，全都能离线完成，不逼你开会员。",
+      "items": [
+        {
+          "name": "LibreOffice",
+          "url": "https://www.libreoffice.org/",
+          "repo": "https://github.com/LibreOffice/core",
+          "desc": "文档、表格、演示全套办公套件，无订阅、无广告。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "ONLYOFFICE 桌面版",
+          "url": "https://www.onlyoffice.com/desktop.aspx",
+          "repo": "https://github.com/ONLYOFFICE/DesktopEditors",
+          "desc": "与 Office 格式兼容度很高的桌面办公套件。",
+          "type": "open",
+          "platform": "全平台",
+          "note": "桌面版免费完整；云端协作是另一项付费服务，与本机使用无关。"
+        },
+        {
+          "name": "Joplin",
+          "url": "https://joplinapp.org/",
+          "repo": "https://github.com/laurent22/joplin",
+          "desc": "本地优先的 Markdown 笔记，支持端到端加密。",
+          "type": "paid",
+          "platform": "全平台 / Android / iOS",
+          "note": "软件与本地同步完全免费；Joplin Cloud 是可选的付费同步服务。"
+        },
+        {
+          "name": "Logseq",
+          "url": "https://logseq.com/",
+          "repo": "https://github.com/logseq/logseq",
+          "desc": "大纲式双链笔记，纯本地文件，数据完全在自己手里。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "思源笔记 SiYuan",
+          "url": "https://b3log.org/siyuan/",
+          "repo": "https://github.com/siyuan-note/siyuan",
+          "desc": "块级双链、思维导图、所见即所得 Markdown，本地优先的中文知识库。",
+          "type": "paid",
+          "platform": "全平台 / Android / iOS",
+          "note": "本地功能免费完整；云端同步与 AI 为可选订阅。"
+        },
+        {
+          "name": "Obsidian",
+          "url": "https://obsidian.md/",
+          "desc": "基于本地 Markdown 文件夹的双链笔记，插件生态极强。",
+          "type": "paid",
+          "platform": "全平台 / Android / iOS",
+          "note": "个人使用完全免费且无广告；商业用途、官方同步与发布服务收费。"
+        },
+        {
+          "name": "Zotero",
+          "url": "https://www.zotero.org/",
+          "repo": "https://github.com/zotero/zotero",
+          "desc": "文献管理与引用，浏览器插件一键抓取。",
+          "type": "paid",
+          "platform": "全平台",
+          "note": "软件免费无广告，自带 300MB 云空间；更大空间需付费。"
+        },
+        {
+          "name": "Anki",
+          "url": "https://apps.ankiweb.net/",
+          "repo": "https://github.com/ankitects/anki",
+          "desc": "间隔重复记忆卡片，算法开源，牌组完全本地。",
+          "type": "paid",
+          "platform": "桌面 / Android / iOS",
+          "note": "桌面端与 AnkiDroid 免费；iOS 官方 App 收费，可用免费网页版 AnkiWeb。"
+        },
+        {
+          "name": "Calibre",
+          "url": "https://calibre-ebook.com/",
+          "repo": "https://github.com/kovidgoyal/calibre",
+          "desc": "电子书库管理、格式转换、推送到阅读器。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "KOReader",
+          "url": "https://github.com/koreader/koreader",
+          "desc": "电子书阅读器前端，尤其适合墨水屏设备。",
+          "type": "open",
+          "platform": "Android / Linux / 墨水屏"
+        },
+        {
+          "name": "SumatraPDF",
+          "url": "https://www.sumatrapdfreader.org/",
+          "repo": "https://github.com/sumatrapdfreader/sumatrapdf",
+          "desc": "极轻的 PDF / EPUB / 漫画阅读器，打开大文件不卡。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "Okular",
+          "url": "https://okular.kde.org/",
+          "desc": "带批注、书签、表单的通用文档阅读器。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "PDF Arranger",
+          "url": "https://github.com/pdfarranger/pdfarranger",
+          "desc": "PDF 拆页、合并、旋转、重排的小工具。",
+          "type": "open",
+          "platform": "Windows / Linux"
+        },
+        {
+          "name": "diagrams.net (draw.io)",
+          "url": "https://www.drawio.com/",
+          "repo": "https://github.com/jgraph/drawio",
+          "desc": "流程图 / 架构图，网页直接用，可存到本地或网盘。",
+          "type": "open",
+          "platform": "网页 / 桌面"
+        },
+        {
+          "name": "Excalidraw",
+          "url": "https://excalidraw.com/",
+          "repo": "https://github.com/excalidraw/excalidraw",
+          "desc": "手绘风白板，打开网页就能画。",
+          "type": "paid",
+          "platform": "网页 / 自托管",
+          "note": "个人使用免费完整无广告；团队付费版只影响协作功能。"
+        },
+        {
+          "name": "Notepad++",
+          "url": "https://notepad-plus-plus.org/",
+          "repo": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+          "desc": "Windows 上最常用的轻量文本 / 代码编辑器。",
+          "type": "open",
+          "platform": "Windows"
+        }
+      ]
+    },
+    {
+      "id": "browser",
+      "title": "🌐 浏览器 · 隐私 · 传输",
+      "desc": "上网这一层的干净程度，决定了后面所有软件的安装体验。",
+      "items": [
+        {
+          "name": "Firefox",
+          "url": "https://www.mozilla.org/firefox/",
+          "repo": "https://github.com/mozilla-firefox/firefox",
+          "desc": "独立内核的开源浏览器，完整版 uBlock Origin 目前的最佳平台。",
+          "type": "open",
+          "platform": "全平台 / Android",
+          "note": "部分区域的新标签页有赞助快捷方式，可在设置中关闭；非第三方广告。"
+        },
+        {
+          "name": "LibreWolf",
+          "url": "https://librewolf.net/",
+          "repo": "https://codeberg.org/librewolf/source",
+          "desc": "Firefox 的隐私强化分支，默认去掉遥测与赞助内容。",
+          "type": "open",
+          "platform": "桌面"
+        },
+        {
+          "name": "Mullvad Browser",
+          "url": "https://mullvad.net/en/browser",
+          "desc": "与 Tor 项目合作的反指纹浏览器，无需购买 VPN 也能用。",
+          "type": "open",
+          "platform": "桌面"
+        },
+        {
+          "name": "Tor Browser",
+          "url": "https://www.torproject.org/download/",
+          "desc": "匿名网络访问，开源且无广告。",
+          "type": "open",
+          "platform": "全平台 / Android"
+        },
+        {
+          "name": "uBlock Origin",
+          "url": "https://github.com/gorhill/uBlock",
+          "desc": "低占用的广告与追踪器拦截器，开源、无「可接受广告」白名单。",
+          "type": "open",
+          "platform": "Firefox / Edge",
+          "note": "Chrome 已全面停用 MV2（2025 年 7 月强制关闭），完整版只剩 Firefox / Brave / Edge；Chrome 请用 uBO Lite。"
+        },
+        {
+          "name": "uBlock Origin Lite",
+          "url": "https://github.com/gorhill/uBlock",
+          "desc": "为 Manifest V3 写的精简版，Chrome / Safari 可用，能力受平台限制。",
+          "type": "open",
+          "platform": "Chrome / Edge / Safari / Firefox"
+        },
+        {
+          "name": "Thunderbird",
+          "url": "https://www.thunderbird.net/",
+          "repo": "https://github.com/mozilla/releases-comm-central",
+          "desc": "开源邮件客户端，多账号、PGP、日历一体。",
+          "type": "open",
+          "platform": "桌面"
+        },
+        {
+          "name": "KeePassXC",
+          "url": "https://keepassxc.org/",
+          "repo": "https://github.com/keepassxreboot/keepassxc",
+          "desc": "纯本地密码库，不依赖任何账号或云服务。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Bitwarden",
+          "url": "https://bitwarden.com/",
+          "repo": "https://github.com/bitwarden/clients",
+          "desc": "可自托管的开源密码管理器，免费版功能完整。",
+          "type": "paid",
+          "platform": "全平台 / 浏览器扩展",
+          "note": "免费版已含无限设备与无限密码；高级版只是附加功能。"
+        },
+        {
+          "name": "Signal",
+          "url": "https://signal.org/",
+          "repo": "https://github.com/signalapp",
+          "desc": "端到端加密即时通讯，非营利基金会运营，界面无广告。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Element (Matrix)",
+          "url": "https://element.io/",
+          "repo": "https://github.com/element-hq/element-web",
+          "desc": "去中心化开源聊天，可自建服务器。",
+          "type": "open",
+          "platform": "全平台 / 网页"
+        },
+        {
+          "name": "qBittorrent",
+          "url": "https://www.qbittorrent.org/",
+          "repo": "https://github.com/qbittorrent/qBittorrent",
+          "desc": "BT / 磁力下载，无广告、无捆绑、无付费加速。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Motrix",
+          "url": "https://motrix.app/",
+          "repo": "https://github.com/agalwood/Motrix",
+          "desc": "界面清爽的多协议下载器，支持 HTTP / BT / 磁力。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Gopeed",
+          "url": "https://gopeed.com/",
+          "repo": "https://github.com/GopeedLab/gopeed",
+          "desc": "Go 写的轻量下载器，支持扩展与多线程。",
+          "type": "open",
+          "platform": "全平台 / Android",
+          "note": "请从 GitHub Releases 下载；部分应用商店版本收费。"
+        },
+        {
+          "name": "WinSCP",
+          "url": "https://winscp.net/",
+          "desc": "SFTP / SCP 图形客户端，老牌且干净。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "PuTTY",
+          "url": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
+          "desc": "经典 SSH / Telnet 客户端，单文件便携。",
+          "type": "open",
+          "platform": "Windows / Linux",
+          "note": "官方页是 chiark.greenend.org.uk，注意仿冒域名。"
+        },
+        {
+          "name": "Wireshark",
+          "url": "https://www.wireshark.org/",
+          "repo": "https://gitlab.com/wireshark/wireshark",
+          "desc": "网络协议分析的事实标准。",
+          "type": "open",
+          "platform": "全平台"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "title": "🎬 影音 · 图像 · 创作",
+      "desc": "不 watermark、不导出收费、不弹「升级专业版」。",
+      "items": [
+        {
+          "name": "VLC",
+          "url": "https://www.videolan.org/vlc/",
+          "repo": "https://code.videolan.org/videolan/vlc",
+          "desc": "几乎能播任何格式的播放器，无广告无遥测。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "mpv",
+          "url": "https://mpv.io/",
+          "repo": "https://github.com/mpv-player/mpv",
+          "desc": "极简、可脚本化的命令行播放器，画质与性能上限很高。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "OBS Studio",
+          "url": "https://obsproject.com/",
+          "repo": "https://github.com/obsproject/obs-studio",
+          "desc": "录屏与直播推流，无水印、无时长限制。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "HandBrake",
+          "url": "https://handbrake.fr/",
+          "repo": "https://github.com/HandBrake/HandBrake",
+          "desc": "视频转码与压制，预设齐全。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Shotcut",
+          "url": "https://www.shotcut.org/",
+          "repo": "https://github.com/mltframework/shotcut",
+          "desc": "开源视频剪辑，多轨、滤镜、关键帧都有。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Kdenlive",
+          "url": "https://kdenlive.org/",
+          "desc": "另一款成熟的开源非线性剪辑软件。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "LosslessCut",
+          "url": "https://mifi.no/losslesscut/",
+          "repo": "https://github.com/mifi/lossless-cut",
+          "desc": "无损剪切视频 / 音频，不重编码所以极快。",
+          "type": "paid",
+          "platform": "全平台",
+          "note": "GitHub 版本完全免费；应用商店版本为付费安装方式。"
+        },
+        {
+          "name": "GIMP",
+          "url": "https://www.gimp.org/",
+          "repo": "https://gitlab.gnome.org/GNOME/gimp",
+          "desc": "图像处理与修图，Photoshop 的开源平替。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Krita",
+          "url": "https://krita.org/",
+          "repo": "https://invent.kde.org/graphics/krita",
+          "desc": "数位绘画，笔刷系统对画师非常友好。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Inkscape",
+          "url": "https://inkscape.org/",
+          "repo": "https://gitlab.com/inkscape/inkscape",
+          "desc": "SVG 矢量图编辑。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Blender",
+          "url": "https://www.blender.org/",
+          "repo": "https://projects.blender.org/blender/blender",
+          "desc": "3D 建模、动画、渲染、甚至视频剪辑，全套免费。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "ImageMagick",
+          "url": "https://imagemagick.org/",
+          "repo": "https://github.com/ImageMagick/ImageMagick",
+          "desc": "命令行图像批处理的瑞士军刀。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "FFmpeg",
+          "url": "https://ffmpeg.org/",
+          "repo": "https://github.com/FFmpeg/FFmpeg",
+          "desc": "音视频编解码与处理的底层基石。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Audacity",
+          "url": "https://www.audacityteam.org/",
+          "repo": "https://github.com/audacity/audacity",
+          "desc": "多轨音频编辑与录音，免费无广告。",
+          "type": "open",
+          "platform": "全平台",
+          "note": "新版首次启动会询问是否开启匿名使用统计，选否即可完全离线。"
+        },
+        {
+          "name": "MusicBrainz Picard",
+          "url": "https://picard.musicbrainz.org/",
+          "repo": "https://github.com/metabrainz/picard",
+          "desc": "用音频指纹批量整理音乐标签与封面。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Kodi",
+          "url": "https://kodi.tv/",
+          "repo": "https://github.com/xbmc/xbmc",
+          "desc": "开源家庭影音中心，本身不含任何广告或内容收费。",
+          "type": "open",
+          "platform": "全平台"
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "title": "💻 开发工具",
+      "desc": "编辑器、数据库、API 调试，都能不用登录、不用订阅。",
+      "items": [
+        {
+          "name": "VSCodium",
+          "url": "https://vscodium.com/",
+          "repo": "https://github.com/VSCodium/vscodium",
+          "desc": "VS Code 的开源构建，去掉微软遥测与品牌推广，扩展生态通用。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Git",
+          "url": "https://git-scm.com/",
+          "repo": "https://github.com/git/git",
+          "desc": "版本控制，无需多言。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Neovim",
+          "url": "https://neovim.io/",
+          "repo": "https://github.com/neovim/neovim",
+          "desc": "现代化 Vim，Lua 配置与 LSP 支持。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Helix",
+          "url": "https://helix-editor.com/",
+          "repo": "https://github.com/helix-editor/helix",
+          "desc": "开箱即用的 Rust 终端编辑器，内置 LSP / 树形语法高亮。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Windows Terminal",
+          "url": "https://github.com/microsoft/terminal",
+          "desc": "多标签、GPU 渲染的现代终端。",
+          "type": "open",
+          "platform": "Windows"
+        },
+        {
+          "name": "PowerShell",
+          "url": "https://github.com/PowerShell/PowerShell",
+          "desc": "跨平台的开源 shell 与脚本语言。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Starship",
+          "url": "https://starship.rs/",
+          "repo": "https://github.com/starship/starship",
+          "desc": "跨 shell 的极速提示符，显示分支、语言版本、耗时。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Atuin",
+          "url": "https://atuin.sh/",
+          "repo": "https://github.com/atuinsh/atuin",
+          "desc": "加密存储的 shell 历史，支持模糊搜索与自建同步。",
+          "type": "open",
+          "platform": "Linux / macOS"
+        },
+        {
+          "name": "DBeaver Community",
+          "url": "https://dbeaver.io/",
+          "repo": "https://github.com/dbeaver/dbeaver",
+          "desc": "通用数据库客户端，支持几十种数据库。",
+          "type": "paid",
+          "platform": "全平台",
+          "note": "Community 版功能完整且开源；Pro 版是额外的企业特性。"
+        },
+        {
+          "name": "Beekeeper Studio",
+          "url": "https://www.beekeeperstudio.io/",
+          "repo": "https://github.com/beekeeper-studio/beekeeper-studio",
+          "desc": "颜值高、上手快的 SQL 编辑器。",
+          "type": "paid",
+          "platform": "全平台",
+          "note": "社区版开源免费；付费版只加企业功能。"
+        },
+        {
+          "name": "DB Browser for SQLite",
+          "url": "https://sqlitebrowser.org/",
+          "repo": "https://github.com/sqlitebrowser/sqlitebrowser",
+          "desc": "SQLite 可视化管理，轻量无账号。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Bruno",
+          "url": "https://www.usebruno.com/",
+          "repo": "https://github.com/usebruno/bruno",
+          "desc": "离线优先的 API 客户端，请求集合直接存成纯文本文件。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "Hoppscotch",
+          "url": "https://hoppscotch.io/",
+          "repo": "https://github.com/hoppscotch/hoppscotch",
+          "desc": "开源 API 调试工具，网页可用也可自托管。",
+          "type": "paid",
+          "platform": "网页 / 自托管",
+          "note": "网页版与自建版免费完整；企业云是付费服务。"
+        },
+        {
+          "name": "Forgejo",
+          "url": "https://forgejo.org/",
+          "repo": "https://codeberg.org/forgejo/forgejo",
+          "desc": "社区自治的轻量 Git 托管服务，自建无限制。",
+          "type": "open",
+          "platform": "自托管"
+        },
+        {
+          "name": "Gitea",
+          "url": "https://about.gitea.com/",
+          "repo": "https://github.com/go-gitea/gitea",
+          "desc": "资源占用极低的 Git 托管服务。",
+          "type": "open",
+          "platform": "自托管"
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "title": "📱 Android / F-Droid",
+      "desc": "手机是广告重灾区，这一节优先选 F-Droid 上的开源应用。",
+      "items": [
+        {
+          "name": "F-Droid",
+          "url": "https://f-droid.org/",
+          "repo": "https://gitlab.com/fdroid/fdroidclient",
+          "desc": "只收录开源应用的商店，天然过滤广告与内购。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "Droid-ify",
+          "url": "https://github.com/Iamlooker/Droid-ify",
+          "desc": "更现代的 F-Droid 客户端，界面和速度都更好。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "Obtainium",
+          "url": "https://github.com/ImranR98/Obtainium",
+          "desc": "直接从 GitHub / 官方源追踪 APK 更新，绕开应用商店。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "Fossify 套件",
+          "url": "https://fossify.org/",
+          "repo": "https://github.com/FossifyOrg",
+          "desc": "相册、文件、日历、通讯录、拨号、短信、键盘、音乐、笔记等一整套无广告基础应用。",
+          "type": "open",
+          "platform": "Android",
+          "note": "Simple Mobile Tools 被出售后加入广告与订阅，社区分叉出了 Fossify；全套 App 甚至不申请联网权限。"
+        },
+        {
+          "name": "Organic Maps",
+          "url": "https://organicmaps.app/",
+          "repo": "https://github.com/organicmaps/organicmaps",
+          "desc": "基于 OpenStreetMap 的离线地图与导航，无广告、无追踪。",
+          "type": "open",
+          "platform": "Android / iOS"
+        },
+        {
+          "name": "OsmAnd~",
+          "url": "https://osmand.net/",
+          "repo": "https://github.com/osmandapp/OsmAnd",
+          "desc": "功能更全的离线地图，等高线、路线规划、POI 都很强。",
+          "type": "paid",
+          "platform": "Android / iOS",
+          "note": "F-Droid 上的 OsmAnd~ 版本功能完整免费；Play 商店版部分功能需订阅。"
+        },
+        {
+          "name": "Aegis Authenticator",
+          "url": "https://getaegis.app/",
+          "repo": "https://github.com/beemdevelopment/Aegis",
+          "desc": "开源 2FA，支持加密备份与导入导出。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "KeePassDX",
+          "url": "https://www.keepassdx.com/",
+          "repo": "https://github.com/Kunzisoft/KeePassDX",
+          "desc": "安卓上的本地密码库，与 KeePass 格式兼容。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "AntennaPod",
+          "url": "https://antennapod.org/",
+          "repo": "https://github.com/AntennaPod/AntennaPod",
+          "desc": "播客客户端，无广告、无账号、无推荐算法。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "NewPipe",
+          "url": "https://newpipe.net/",
+          "repo": "https://github.com/TeamNewPipe/NewPipe",
+          "desc": "轻量视频前端，无广告、支持后台播放与下载。",
+          "type": "open",
+          "platform": "Android",
+          "note": "非官方客户端，接口变更后需等应用更新。"
+        },
+        {
+          "name": "Seal",
+          "url": "https://github.com/JunkFood02/Seal",
+          "desc": "基于 yt-dlp 的安卓视频 / 音频下载工具。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "Markor",
+          "url": "https://github.com/gsantner/markor",
+          "desc": "直接编辑本地 Markdown / todo.txt 文件的极简笔记。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "Tasks.org",
+          "url": "https://tasks.org/",
+          "repo": "https://github.com/tasks/tasks",
+          "desc": "开源待办与日历，支持 CalDAV / DavX5 同步。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "Thunderbird for Android（原 K-9 Mail）",
+          "url": "https://github.com/thunderbird/thunderbird-android",
+          "desc": "开源邮件客户端，多账号、无广告。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "Termux",
+          "url": "https://termux.dev/",
+          "repo": "https://github.com/termux/termux-app",
+          "desc": "安卓上的 Linux 终端环境，无需 root。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "AdAway",
+          "url": "https://app.adaway.org/",
+          "repo": "https://github.com/AdAway/AdAway",
+          "desc": "Hosts / VPN 模式的系统级广告拦截。",
+          "type": "open",
+          "platform": "Android"
+        },
+        {
+          "name": "RethinkDNS + Firewall",
+          "url": "https://rethinkdns.com/",
+          "repo": "https://github.com/celzero/rethink-app",
+          "desc": "DNS 过滤 + 按应用断网，一次把广告和偷跑流量都管住。",
+          "type": "open",
+          "platform": "Android"
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "title": "🌍 在线服务 · 自建服务",
+      "desc": "不卖广告位、不逼登录；能自建的都给了自建选项。",
+      "items": [
+        {
+          "name": "Wikipedia",
+          "url": "https://www.wikipedia.org/",
+          "desc": "无第三方广告的百科全书，内容可自由复用。",
+          "type": "free",
+          "platform": "网页",
+          "note": "偶尔出现非商业募捐横幅，不是广告。"
+        },
+        {
+          "name": "Internet Archive",
+          "url": "https://archive.org/",
+          "desc": "网页时光机、公共领域图书 / 影像 / 软件存档。",
+          "type": "free",
+          "platform": "网页"
+        },
+        {
+          "name": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/",
+          "desc": "公共领域电子书，无广告、无账号。",
+          "type": "free",
+          "platform": "网页"
+        },
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/",
+          "desc": "自由开放的地图数据，很多无广告地图应用都基于它。",
+          "type": "open",
+          "platform": "网页 / 数据"
+        },
+        {
+          "name": "SearXNG",
+          "url": "https://searxng.org/",
+          "repo": "https://github.com/searxng/searxng",
+          "desc": "开源元搜索引擎，聚合结果、不追踪、不插广告。",
+          "type": "open",
+          "platform": "公共实例 / 自托管"
+        },
+        {
+          "name": "Invidious",
+          "url": "https://invidious.io/",
+          "repo": "https://github.com/iv-org/invidious",
+          "desc": "视频平台的开源轻量前端，无广告、无追踪。",
+          "type": "open",
+          "platform": "公共实例 / 自托管"
+        },
+        {
+          "name": "PrivateBin",
+          "url": "https://privatebin.info/",
+          "repo": "https://github.com/PrivateBin/PrivateBin",
+          "desc": "端到端加密的临时文本 / 代码分享，服务器看不到内容。",
+          "type": "open",
+          "platform": "公共实例 / 自托管"
+        },
+        {
+          "name": "LibreTranslate",
+          "url": "https://libretranslate.com/",
+          "repo": "https://github.com/LibreTranslate/LibreTranslate",
+          "desc": "开源机器翻译，可完全自建。",
+          "type": "paid",
+          "platform": "网页 / 自托管",
+          "note": "自建实例免费无限制；官方公共 API 需付费 Key。"
+        },
+        {
+          "name": "CryptPad",
+          "url": "https://cryptpad.org/",
+          "repo": "https://github.com/cryptpad/cryptpad",
+          "desc": "端到端加密的在线文档、表格、白板协作。",
+          "type": "paid",
+          "platform": "网页 / 自托管",
+          "note": "匿名使用与自建免费；付费订阅只影响云端存储空间。"
+        },
+        {
+          "name": "Jitsi Meet",
+          "url": "https://jitsi.org/jitsi-meet/",
+          "repo": "https://github.com/jitsi/jitsi-meet",
+          "desc": "打开网页就能开的多人视频会议，无账号、无时长限制。",
+          "type": "open",
+          "platform": "网页 / 自托管"
+        },
+        {
+          "name": "Pi-hole",
+          "url": "https://pi-hole.net/",
+          "repo": "https://github.com/pi-hole/pi-hole",
+          "desc": "网络级 DNS 广告拦截，一台树莓派保护全屋设备。",
+          "type": "open",
+          "platform": "自托管"
+        },
+        {
+          "name": "AdGuard Home",
+          "url": "https://adguard.com/en/adguard-home/overview.html",
+          "repo": "https://github.com/AdguardTeam/AdGuardHome",
+          "desc": "另一款网络级 DNS 过滤，配置界面更友好。",
+          "type": "open",
+          "platform": "自托管"
+        },
+        {
+          "name": "Nextcloud",
+          "url": "https://nextcloud.com/",
+          "repo": "https://github.com/nextcloud/server",
+          "desc": "自建网盘 + 日历 + 联系人 + 文档协作。",
+          "type": "open",
+          "platform": "自托管"
+        },
+        {
+          "name": "Jellyfin",
+          "url": "https://jellyfin.org/",
+          "repo": "https://github.com/jellyfin/jellyfin",
+          "desc": "自建影音媒体库，无订阅、无广告、无遥测。",
+          "type": "open",
+          "platform": "自托管"
+        },
+        {
+          "name": "Immich",
+          "url": "https://immich.app/",
+          "repo": "https://github.com/immich-app/immich",
+          "desc": "自建照片备份与 AI 检索，Google Photos 的开源替代。",
+          "type": "open",
+          "platform": "自托管"
+        },
+        {
+          "name": "Stirling-PDF",
+          "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+          "desc": "自建 PDF 工具箱：合并、拆分、压缩、OCR、转换全都有。",
+          "type": "paid",
+          "platform": "自托管",
+          "note": "社区版免费完整；企业版是额外的付费支持与功能。"
+        },
+        {
+          "name": "Codeberg",
+          "url": "https://codeberg.org/",
+          "desc": "非营利运营的代码托管平台，无广告、无追踪。",
+          "type": "open",
+          "platform": "网页"
+        },
+        {
+          "name": "OpenAlternative",
+          "url": "https://openalternative.co/",
+          "repo": "https://github.com/piotrkulpinski/openalternative",
+          "desc": "按商业软件名查开源平替的目录站。",
+          "type": "open",
+          "platform": "网页"
+        }
+      ]
+    }
+  ]
+}

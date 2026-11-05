@@ -1,0 +1,35 @@
+name: 清单检查
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # 每月 1 日 03:00 UTC 巡检一次链接
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  consistency:
+    name: README 与数据一致性
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/build.mjs --check
+
+  links:
+    name: 链接巡检
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/check-links.mjs

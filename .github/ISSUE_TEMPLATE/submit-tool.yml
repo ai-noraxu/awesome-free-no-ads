@@ -1,0 +1,96 @@
+name: 推荐一个工具
+description: 推荐符合「无广告、无付费、核心功能完整免费」标准的软件或在线服务
+title: '[收录] '
+labels: ['new-tool']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先对照 [收录标准](https://github.com/ai-noraxu/awesome-free-no-ads#收录标准)。开源是加分项，不是门槛；但广告和付费墙是硬红线。
+
+  - type: input
+    id: name
+    attributes:
+      label: 工具名称
+      placeholder: 例如 LocalSend
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: 官网 / 官方下载页
+      description: 只接受官方地址，不要第三方下载站、网盘或应用商店聚合页
+      placeholder: https://localsend.org/
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: 源码仓库（可选）
+      placeholder: https://github.com/localsend/localsend
+    validations:
+      required: false
+
+  - type: textarea
+    id: desc
+    attributes:
+      label: 一句话说明
+      description: 它解决什么问题？不要营销话术
+      placeholder: 局域网跨设备互传文件，不走云端、不用登录
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: 类型
+      options:
+        - 🟢 开源
+        - 🔵 免费闭源
+        - 🟡 可选付费（请务必在下方写清付费边界）
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: 适用平台（可选）
+      placeholder: Windows / Linux / 网页 / Android
+    validations:
+      required: false
+
+  - type: input
+    id: category
+    attributes:
+      label: 建议归入哪个分类（可选）
+      placeholder: 系统与桌面效率
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: 收录标准自检
+      options:
+        - label: 核心功能永久免费，不是试用版、不是关键功能被锁的免费版
+          required: true
+        - label: 没有横幅 / 开屏 / 弹窗 / 信息流广告，没有「推荐安装」
+          required: true
+        - label: 不升级付费版也能正常用
+          required: true
+        - label: 不强制注册账号、不强制联网
+          required: true
+        - label: 安装器不捆绑第三方软件、不改浏览器主页
+          required: true
+        - label: 我给出的链接是官方地址，且当前可访问
+          required: true
+
+  - type: textarea
+    id: note
+    attributes:
+      label: 需要说明的边界或坑（可选）
+      description: 例如「GitHub 版免费，应用商店版收费」「官方公共 API 需付费 Key，自建免费」
+    validations:
+      required: false
