@@ -190,6 +190,14 @@
           "desc": "另一款 Windows 平铺窗口管理器，键盘流首选。",
           "type": "open",
           "platform": "Windows"
+        },
+        {
+          "name": "Espanso",
+          "url": "https://espanso.org/",
+          "repo": "https://github.com/espanso/espanso",
+          "desc": "跨平台的文本展开器，输入缩写自动替换成常用语、模板或代码片段。",
+          "type": "open",
+          "platform": "全平台"
         }
       ]
     },
@@ -328,6 +336,14 @@
           "desc": "Windows 上最常用的轻量文本 / 代码编辑器。",
           "type": "open",
           "platform": "Windows"
+        },
+        {
+          "name": "Pandoc",
+          "url": "https://pandoc.org/",
+          "repo": "https://github.com/jgm/pandoc",
+          "desc": "文档格式转换的通用转换器，Markdown / Word / PDF / HTML / LaTeX 互通。",
+          "type": "open",
+          "platform": "全平台"
         }
       ]
     },
@@ -470,6 +486,15 @@
           "desc": "网络协议分析的事实标准。",
           "type": "open",
           "platform": "全平台"
+        },
+        {
+          "name": "FreeTube",
+          "url": "https://freetubeapp.io/",
+          "repo": "https://github.com/FreeTubeApp/FreeTube",
+          "desc": "开源桌面视频客户端，本地订阅列表、无广告、不追踪。",
+          "type": "open",
+          "platform": "桌面",
+          "note": "非官方客户端，接口变更后需等待应用更新。"
         }
       ]
     },
@@ -604,6 +629,14 @@
           "url": "https://kodi.tv/",
           "repo": "https://github.com/xbmc/xbmc",
           "desc": "开源家庭影音中心，本身不含任何广告或内容收费。",
+          "type": "open",
+          "platform": "全平台"
+        },
+        {
+          "name": "darktable",
+          "url": "https://www.darktable.org/",
+          "repo": "https://github.com/darktable-org/darktable",
+          "desc": "RAW 显影与照片管理，Lightroom 的开源平替。",
           "type": "open",
           "platform": "全平台"
         }
@@ -1008,7 +1041,7 @@
           "desc": "自建 PDF 工具箱：合并、拆分、压缩、OCR、转换全都有。",
           "type": "paid",
           "platform": "自托管",
-          "note": "社区版免费完整；企业版是额外的付费支持与功能。"
+          "note": "v3.0 起为 open-core：手动 PDF 工具仍全部免费（免费版最多 5 用户）；批量自动化有每月额度，外部数据库 / SAML SSO / 审计日志属付费企业版。"
         },
         {
           "name": "Codeberg",
@@ -1024,6 +1057,13 @@
           "desc": "按商业软件名查开源平替的目录站。",
           "type": "open",
           "platform": "网页"
+        },
+        {
+          "name": "Uptime Kuma",
+          "url": "https://github.com/louislam/uptime-kuma",
+          "desc": "自建 uptime 监控与状态页，HTTP / TCP / 证书到期都能盯，无账号无广告。",
+          "type": "open",
+          "platform": "自托管"
         }
       ]
     }

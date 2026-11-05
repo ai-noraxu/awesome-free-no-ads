@@ -8,7 +8,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 <!-- STATS:START -->
-收录 **122** 款工具，覆盖 **7** 个分类 · 🟢 开源 101 · 🔵 免费闭源 4 · 🟡 可选付费 17 · 最后核对 2026-11-05
+收录 **127** 款工具，覆盖 **7** 个分类 · 🟢 开源 106 · 🔵 免费闭源 4 · 🟡 可选付费 17 · 最后核对 2026-11-05
 <!-- STATS:END -->
 
 ## 收录标准
@@ -73,6 +73,7 @@
 - **[Flameshot](https://flameshot.org/)** · [源码](https://github.com/flameshot-org/flameshot) · 🟢 开源 — 轻量截图与标注，跨平台。 · *全平台*
 - **[GlazeWM](https://github.com/glzr-io/glazewm)** · 🟢 开源 — Windows 平铺窗口管理器，YAML 配置。 · *Windows*
 - **[komorebi](https://github.com/LGUG2Z/komorebi)** · 🟢 开源 — 另一款 Windows 平铺窗口管理器，键盘流首选。 · *Windows*
+- **[Espanso](https://espanso.org/)** · [源码](https://github.com/espanso/espanso) · 🟢 开源 — 跨平台的文本展开器，输入缩写自动替换成常用语、模板或代码片段。 · *全平台*
 
 ## 📄 办公 · 文档 · 笔记
 
@@ -101,6 +102,7 @@
 - **[Excalidraw](https://excalidraw.com/)** · [源码](https://github.com/excalidraw/excalidraw) · 🟡 可选付费 — 手绘风白板，打开网页就能画。 · *网页 / 自托管*
   - 💬 个人使用免费完整无广告；团队付费版只影响协作功能。
 - **[Notepad++](https://notepad-plus-plus.org/)** · [源码](https://github.com/notepad-plus-plus/notepad-plus-plus) · 🟢 开源 — Windows 上最常用的轻量文本 / 代码编辑器。 · *Windows*
+- **[Pandoc](https://pandoc.org/)** · [源码](https://github.com/jgm/pandoc) · 🟢 开源 — 文档格式转换的通用转换器，Markdown / Word / PDF / HTML / LaTeX 互通。 · *全平台*
 
 ## 🌐 浏览器 · 隐私 · 传输
 
@@ -128,6 +130,8 @@
 - **[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)** · 🟢 开源 — 经典 SSH / Telnet 客户端，单文件便携。 · *Windows / Linux*
   - 💬 官方页是 chiark.greenend.org.uk，注意仿冒域名。
 - **[Wireshark](https://www.wireshark.org/)** · [源码](https://gitlab.com/wireshark/wireshark) · 🟢 开源 — 网络协议分析的事实标准。 · *全平台*
+- **[FreeTube](https://freetubeapp.io/)** · [源码](https://github.com/FreeTubeApp/FreeTube) · 🟢 开源 — 开源桌面视频客户端，本地订阅列表、无广告、不追踪。 · *桌面*
+  - 💬 非官方客户端，接口变更后需等待应用更新。
 
 ## 🎬 影音 · 图像 · 创作
 
@@ -151,6 +155,7 @@
   - 💬 新版首次启动会询问是否开启匿名使用统计，选否即可完全离线。
 - **[MusicBrainz Picard](https://picard.musicbrainz.org/)** · [源码](https://github.com/metabrainz/picard) · 🟢 开源 — 用音频指纹批量整理音乐标签与封面。 · *全平台*
 - **[Kodi](https://kodi.tv/)** · [源码](https://github.com/xbmc/xbmc) · 🟢 开源 — 开源家庭影音中心，本身不含任何广告或内容收费。 · *全平台*
+- **[darktable](https://www.darktable.org/)** · [源码](https://github.com/darktable-org/darktable) · 🟢 开源 — RAW 显影与照片管理，Lightroom 的开源平替。 · *全平台*
 
 ## 💻 开发工具
 
@@ -223,9 +228,10 @@
 - **[Jellyfin](https://jellyfin.org/)** · [源码](https://github.com/jellyfin/jellyfin) · 🟢 开源 — 自建影音媒体库，无订阅、无广告、无遥测。 · *自托管*
 - **[Immich](https://immich.app/)** · [源码](https://github.com/immich-app/immich) · 🟢 开源 — 自建照片备份与 AI 检索，Google Photos 的开源替代。 · *自托管*
 - **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** · 🟡 可选付费 — 自建 PDF 工具箱：合并、拆分、压缩、OCR、转换全都有。 · *自托管*
-  - 💬 社区版免费完整；企业版是额外的付费支持与功能。
+  - 💬 v3.0 起为 open-core：手动 PDF 工具仍全部免费（免费版最多 5 用户）；批量自动化有每月额度，外部数据库 / SAML SSO / 审计日志属付费企业版。
 - **[Codeberg](https://codeberg.org/)** · 🟢 开源 — 非营利运营的代码托管平台，无广告、无追踪。 · *网页*
 - **[OpenAlternative](https://openalternative.co/)** · [源码](https://github.com/piotrkulpinski/openalternative) · 🟢 开源 — 按商业软件名查开源平替的目录站。 · *网页*
+- **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** · 🟢 开源 — 自建 uptime 监控与状态页，HTTP / TCP / 证书到期都能盯，无账号无广告。 · *自托管*
 <!-- LIST:END -->
 
 ---
@@ -236,7 +242,7 @@
 
 | 名称 | 情况 | 建议替代 |
 | --- | --- | --- |
-| **Simple Mobile Tools** | 2023 年底被出售给 ZipApps，Play 版陆续加入广告与订阅，2024 年 11 月 F-Droid 归档了旧应用 | Fossify 套件（社区分叉，见 Android 章节） |
+| **Simple Mobile Tools** | 2023 年底被出售给 ZipoApps，Play 版陆续加入广告与订阅，2024 年 11 月 F-Droid 归档了旧应用 | Fossify 套件（社区分叉，见 Android 章节） |
 | **CCleaner 免费版** | 安装器捆绑推广，免费版频繁弹窗引导升级 | BleachBit |
 | **µTorrent** | 免费版含广告与捆绑安装 | qBittorrent |
 | **Photopea** | 网页版靠广告位变现，「免费」但有广告 | GIMP / Krita |
@@ -246,6 +252,7 @@
 | **DaVinci Resolve 免费版** | 大部分功能可用，但部分能力需付费 Studio 授权 | Shotcut / Kdenlive |
 | **Audacity 新版首次启动** | 会询问是否开启匿名使用统计 | 选「否」即可完全离线，详见正文备注 |
 | **Anki iOS / Obsidian 商用** | 特定平台或特定用途收费 | 见正文对应条目的 💬 备注 |
+| **Stirling-PDF v3.0+** | 2026 年 9 月转为 open-core：核心 PDF 工具仍免费，但免费版限 5 用户、批量自动化有月度额度，专有模块需商业授权 | 只用手动 PDF 工具可继续自建，边界见正文 💬 备注 |
 
 ## 下载安全：三条就够了
 
