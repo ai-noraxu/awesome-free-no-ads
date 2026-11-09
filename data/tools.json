@@ -1,6 +1,6 @@
 {
   "name": "无广告 · 无付费 · 好用工具清单",
-  "updated": "2026-11-05",
+  "updated": "2026-11-09",
   "types": {
     "open": "🟢 开源",
     "free": "🔵 免费闭源",
@@ -198,6 +198,14 @@
           "desc": "跨平台的文本展开器，输入缩写自动替换成常用语、模板或代码片段。",
           "type": "open",
           "platform": "全平台"
+        },
+        {
+          "name": "VeraCrypt",
+          "url": "https://veracrypt.io/",
+          "repo": "https://github.com/veracrypt/VeraCrypt",
+          "desc": "磁盘 / 分区 / 文件容器加密，TrueCrypt 的接班人，本地离线、无广告无账号。",
+          "type": "open",
+          "platform": "全平台"
         }
       ]
     },
@@ -255,7 +263,7 @@
           "desc": "基于本地 Markdown 文件夹的双链笔记，插件生态极强。",
           "type": "paid",
           "platform": "全平台 / Android / iOS",
-          "note": "个人使用完全免费且无广告；商业用途、官方同步与发布服务收费。"
+          "note": "个人与商业用途均免费、无需账号、无遥测（2025 年 2 月起商用亦免费）；仅官方 Sync / Publish 与自愿的支持授权收费。"
         },
         {
           "name": "Zotero",
@@ -495,6 +503,14 @@
           "type": "open",
           "platform": "桌面",
           "note": "非官方客户端，接口变更后需等待应用更新。"
+        },
+        {
+          "name": "simplewall",
+          "url": "https://github.com/henrypp/simplewall",
+          "desc": "基于 WFP 的 Windows 网络管控工具，按应用放行或阻断联网、可屏蔽系统遥测，不到 1MB。",
+          "type": "open",
+          "platform": "Windows",
+          "note": "GPL-3.0、免费无广告、无需账号；只从官方仓库 Releases 下载 —— 旧站 henrypp.org 本次核查返回无关内容，已不列为下载入口。"
         }
       ]
     },
@@ -614,7 +630,7 @@
           "desc": "多轨音频编辑与录音，免费无广告。",
           "type": "open",
           "platform": "全平台",
-          "note": "新版首次启动会询问是否开启匿名使用统计，选否即可完全离线。"
+          "note": "4.0 起更新检查默认开启（首次安装会提示、可在偏好设置关闭），错误报告与匿名统计为可选且默认关；都关掉即可完全离线。"
         },
         {
           "name": "MusicBrainz Picard",
@@ -767,6 +783,15 @@
           "desc": "资源占用极低的 Git 托管服务。",
           "type": "open",
           "platform": "自托管"
+        },
+        {
+          "name": "Ghostty",
+          "url": "https://ghostty.org/",
+          "repo": "https://github.com/ghostty-org/ghostty",
+          "desc": "原生 UI + GPU 加速的终端模拟器，配置简单、开箱即用，无广告无账号。",
+          "type": "open",
+          "platform": "macOS / Linux",
+          "note": "MIT 许可；官方仅发布 macOS 二进制，Linux 走各发行版仓库或社区包，暂无官方 Windows 版。"
         }
       ]
     },
@@ -908,6 +933,15 @@
           "desc": "DNS 过滤 + 按应用断网，一次把广告和偷跑流量都管住。",
           "type": "open",
           "platform": "Android"
+        },
+        {
+          "name": "Catima",
+          "url": "https://catima.app/",
+          "repo": "https://github.com/CatimaLoyalty/Android",
+          "desc": "把会员卡、优惠券、票券二维码都存在本地，离线可用、无账号。",
+          "type": "open",
+          "platform": "Android",
+          "note": "GPLv3+ 开源，官网与 F-Droid 版均声明无广告、不申请联网权限、无内购。"
         }
       ]
     },
@@ -1064,6 +1098,14 @@
           "desc": "自建 uptime 监控与状态页，HTTP / TCP / 证书到期都能盯，无账号无广告。",
           "type": "open",
           "platform": "自托管"
+        },
+        {
+          "name": "Paperless-ngx",
+          "url": "https://github.com/paperless-ngx/paperless-ngx",
+          "desc": "自建文档归档系统，扫描件 OCR 后全文检索、自动打标签，数据全留在自己服务器。",
+          "type": "open",
+          "platform": "自托管",
+          "note": "GPL-3.0 开源、社区维护；官方文档在 docs.paperless-ngx.com，AI / 云端 OCR 均为可选、默认关闭。"
         }
       ]
     }

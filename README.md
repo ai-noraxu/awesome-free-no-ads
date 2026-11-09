@@ -8,7 +8,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 <!-- STATS:START -->
-收录 **127** 款工具，覆盖 **7** 个分类 · 🟢 开源 106 · 🔵 免费闭源 4 · 🟡 可选付费 17 · 最后核对 2026-11-05
+收录 **132** 款工具，覆盖 **7** 个分类 · 🟢 开源 111 · 🔵 免费闭源 4 · 🟡 可选付费 17 · 最后核对 2026-11-09
 <!-- STATS:END -->
 
 ## 收录标准
@@ -74,6 +74,7 @@
 - **[GlazeWM](https://github.com/glzr-io/glazewm)** · 🟢 开源 — Windows 平铺窗口管理器，YAML 配置。 · *Windows*
 - **[komorebi](https://github.com/LGUG2Z/komorebi)** · 🟢 开源 — 另一款 Windows 平铺窗口管理器，键盘流首选。 · *Windows*
 - **[Espanso](https://espanso.org/)** · [源码](https://github.com/espanso/espanso) · 🟢 开源 — 跨平台的文本展开器，输入缩写自动替换成常用语、模板或代码片段。 · *全平台*
+- **[VeraCrypt](https://veracrypt.io/)** · [源码](https://github.com/veracrypt/VeraCrypt) · 🟢 开源 — 磁盘 / 分区 / 文件容器加密，TrueCrypt 的接班人，本地离线、无广告无账号。 · *全平台*
 
 ## 📄 办公 · 文档 · 笔记
 
@@ -88,7 +89,7 @@
 - **[思源笔记 SiYuan](https://b3log.org/siyuan/)** · [源码](https://github.com/siyuan-note/siyuan) · 🟡 可选付费 — 块级双链、思维导图、所见即所得 Markdown，本地优先的中文知识库。 · *全平台 / Android / iOS*
   - 💬 本地功能免费完整；云端同步与 AI 为可选订阅。
 - **[Obsidian](https://obsidian.md/)** · 🟡 可选付费 — 基于本地 Markdown 文件夹的双链笔记，插件生态极强。 · *全平台 / Android / iOS*
-  - 💬 个人使用完全免费且无广告；商业用途、官方同步与发布服务收费。
+  - 💬 个人与商业用途均免费、无需账号、无遥测（2025 年 2 月起商用亦免费）；仅官方 Sync / Publish 与自愿的支持授权收费。
 - **[Zotero](https://www.zotero.org/)** · [源码](https://github.com/zotero/zotero) · 🟡 可选付费 — 文献管理与引用，浏览器插件一键抓取。 · *全平台*
   - 💬 软件免费无广告，自带 300MB 云空间；更大空间需付费。
 - **[Anki](https://apps.ankiweb.net/)** · [源码](https://github.com/ankitects/anki) · 🟡 可选付费 — 间隔重复记忆卡片，算法开源，牌组完全本地。 · *桌面 / Android / iOS*
@@ -132,6 +133,8 @@
 - **[Wireshark](https://www.wireshark.org/)** · [源码](https://gitlab.com/wireshark/wireshark) · 🟢 开源 — 网络协议分析的事实标准。 · *全平台*
 - **[FreeTube](https://freetubeapp.io/)** · [源码](https://github.com/FreeTubeApp/FreeTube) · 🟢 开源 — 开源桌面视频客户端，本地订阅列表、无广告、不追踪。 · *桌面*
   - 💬 非官方客户端，接口变更后需等待应用更新。
+- **[simplewall](https://github.com/henrypp/simplewall)** · 🟢 开源 — 基于 WFP 的 Windows 网络管控工具，按应用放行或阻断联网、可屏蔽系统遥测，不到 1MB。 · *Windows*
+  - 💬 GPL-3.0、免费无广告、无需账号；只从官方仓库 Releases 下载 —— 旧站 henrypp.org 本次核查返回无关内容，已不列为下载入口。
 
 ## 🎬 影音 · 图像 · 创作
 
@@ -152,7 +155,7 @@
 - **[ImageMagick](https://imagemagick.org/)** · [源码](https://github.com/ImageMagick/ImageMagick) · 🟢 开源 — 命令行图像批处理的瑞士军刀。 · *全平台*
 - **[FFmpeg](https://ffmpeg.org/)** · [源码](https://github.com/FFmpeg/FFmpeg) · 🟢 开源 — 音视频编解码与处理的底层基石。 · *全平台*
 - **[Audacity](https://www.audacityteam.org/)** · [源码](https://github.com/audacity/audacity) · 🟢 开源 — 多轨音频编辑与录音，免费无广告。 · *全平台*
-  - 💬 新版首次启动会询问是否开启匿名使用统计，选否即可完全离线。
+  - 💬 4.0 起更新检查默认开启（首次安装会提示、可在偏好设置关闭），错误报告与匿名统计为可选且默认关；都关掉即可完全离线。
 - **[MusicBrainz Picard](https://picard.musicbrainz.org/)** · [源码](https://github.com/metabrainz/picard) · 🟢 开源 — 用音频指纹批量整理音乐标签与封面。 · *全平台*
 - **[Kodi](https://kodi.tv/)** · [源码](https://github.com/xbmc/xbmc) · 🟢 开源 — 开源家庭影音中心，本身不含任何广告或内容收费。 · *全平台*
 - **[darktable](https://www.darktable.org/)** · [源码](https://github.com/darktable-org/darktable) · 🟢 开源 — RAW 显影与照片管理，Lightroom 的开源平替。 · *全平台*
@@ -179,6 +182,8 @@
   - 💬 网页版与自建版免费完整；企业云是付费服务。
 - **[Forgejo](https://forgejo.org/)** · [源码](https://codeberg.org/forgejo/forgejo) · 🟢 开源 — 社区自治的轻量 Git 托管服务，自建无限制。 · *自托管*
 - **[Gitea](https://about.gitea.com/)** · [源码](https://github.com/go-gitea/gitea) · 🟢 开源 — 资源占用极低的 Git 托管服务。 · *自托管*
+- **[Ghostty](https://ghostty.org/)** · [源码](https://github.com/ghostty-org/ghostty) · 🟢 开源 — 原生 UI + GPU 加速的终端模拟器，配置简单、开箱即用，无广告无账号。 · *macOS / Linux*
+  - 💬 MIT 许可；官方仅发布 macOS 二进制，Linux 走各发行版仓库或社区包，暂无官方 Windows 版。
 
 ## 📱 Android / F-Droid
 
@@ -204,6 +209,8 @@
 - **[Termux](https://termux.dev/)** · [源码](https://github.com/termux/termux-app) · 🟢 开源 — 安卓上的 Linux 终端环境，无需 root。 · *Android*
 - **[AdAway](https://app.adaway.org/)** · [源码](https://github.com/AdAway/AdAway) · 🟢 开源 — Hosts / VPN 模式的系统级广告拦截。 · *Android*
 - **[RethinkDNS + Firewall](https://rethinkdns.com/)** · [源码](https://github.com/celzero/rethink-app) · 🟢 开源 — DNS 过滤 + 按应用断网，一次把广告和偷跑流量都管住。 · *Android*
+- **[Catima](https://catima.app/)** · [源码](https://github.com/CatimaLoyalty/Android) · 🟢 开源 — 把会员卡、优惠券、票券二维码都存在本地，离线可用、无账号。 · *Android*
+  - 💬 GPLv3+ 开源，官网与 F-Droid 版均声明无广告、不申请联网权限、无内购。
 
 ## 🌍 在线服务 · 自建服务
 
@@ -232,6 +239,8 @@
 - **[Codeberg](https://codeberg.org/)** · 🟢 开源 — 非营利运营的代码托管平台，无广告、无追踪。 · *网页*
 - **[OpenAlternative](https://openalternative.co/)** · [源码](https://github.com/piotrkulpinski/openalternative) · 🟢 开源 — 按商业软件名查开源平替的目录站。 · *网页*
 - **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** · 🟢 开源 — 自建 uptime 监控与状态页，HTTP / TCP / 证书到期都能盯，无账号无广告。 · *自托管*
+- **[Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** · 🟢 开源 — 自建文档归档系统，扫描件 OCR 后全文检索、自动打标签，数据全留在自己服务器。 · *自托管*
+  - 💬 GPL-3.0 开源、社区维护；官方文档在 docs.paperless-ngx.com，AI / 云端 OCR 均为可选、默认关闭。
 <!-- LIST:END -->
 
 ---
@@ -248,10 +257,12 @@
 | **Photopea** | 网页版靠广告位变现，「免费」但有广告 | GIMP / Krita |
 | **各类「高速下载器」/ 下载站** | 改包、捆绑、全家桶，按钮越大越危险 | 只进官网或 GitHub Releases |
 | **7zip.com / 7-zip.cn** | 仿冒 7-Zip 官网，下载物可能被改动 | 7-zip.org |
+| **henrypp.org（simplewall 旧站）** | 2026 年 11 月核查时返回无关的博彩 / 停放页，已非官方下载入口 | 只从 github.com/henrypp/simplewall 的 Releases 获取 |
 | **Firefox 赞助快捷方式 / Brave Rewards** | 默认开启的推广内容，非第三方广告且可关闭 | 设置里关掉；想要彻底干净用 LibreWolf |
 | **DaVinci Resolve 免费版** | 大部分功能可用，但部分能力需付费 Studio 授权 | Shotcut / Kdenlive |
-| **Audacity 新版首次启动** | 会询问是否开启匿名使用统计 | 选「否」即可完全离线，详见正文备注 |
-| **Anki iOS / Obsidian 商用** | 特定平台或特定用途收费 | 见正文对应条目的 💬 备注 |
+| **Audacity 4.x 首次启动** | 4.0 起「更新检查」默认开启（首次安装会提示、可在偏好设置关闭），错误报告与匿名统计为可选且默认关 | 把更新检查一并关掉即可完全离线，详见正文备注 |
+| **Anki iOS 官方 App** | 仅 iOS 官方 App 收费；桌面端、AnkiDroid 与网页版 AnkiWeb 均免费 | AnkiDroid / AnkiWeb |
+| **Obsidian 商用（旧信息已更正）** | 2025 年 2 月起官方许可改为所有用途免费（含商用）、无需账号、无遥测；商业授权变为自愿支持，非必需 | 直接用免费版，边界见正文 💬 备注 |
 | **Stirling-PDF v3.0+** | 2026 年 9 月转为 open-core：核心 PDF 工具仍免费，但免费版限 5 用户、批量自动化有月度额度，专有模块需商业授权 | 只用手动 PDF 工具可继续自建，边界见正文 💬 备注 |
 
 ## 下载安全：三条就够了
