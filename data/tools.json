@@ -942,6 +942,14 @@
           "type": "open",
           "platform": "Android",
           "note": "GPLv3+ 开源，官网与 F-Droid 版均声明无广告、不申请联网权限、无内购。"
+        },
+        {
+          "name": "涟漪（Ripple）",
+          "url": "https://ripplefocus.github.io/",
+          "desc": "给自己或孩子的手机限制 App：按时段屏蔽、每日时长、打开次数上限，放松规则要等 15 分钟或输解锁码。",
+          "type": "free",
+          "platform": "Android / iOS",
+          "note": "闭源，免费无广告无内购，不用注册，设置只存在手机上；会上报匿名随机编号的每日打开统计（隐私政策有写）。iPhone 版只有按时段屏蔽，只提供 .ipa 安装包，不在 App Store。没有远程管理。"
         }
       ]
     },
