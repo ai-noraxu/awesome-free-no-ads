@@ -8,7 +8,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 <!-- STATS:START -->
-收录 **132** 款工具，覆盖 **7** 个分类 · 🟢 开源 111 · 🔵 免费闭源 4 · 🟡 可选付费 17 · 最后核对 2026-11-09
+收录 **133** 款工具，覆盖 **7** 个分类 · 🟢 开源 111 · 🔵 免费闭源 5 · 🟡 可选付费 17 · 最后核对 2026-11-09
 <!-- STATS:END -->
 
 ## 收录标准
@@ -211,6 +211,8 @@
 - **[RethinkDNS + Firewall](https://rethinkdns.com/)** · [源码](https://github.com/celzero/rethink-app) · 🟢 开源 — DNS 过滤 + 按应用断网，一次把广告和偷跑流量都管住。 · *Android*
 - **[Catima](https://catima.app/)** · [源码](https://github.com/CatimaLoyalty/Android) · 🟢 开源 — 把会员卡、优惠券、票券二维码都存在本地，离线可用、无账号。 · *Android*
   - 💬 GPLv3+ 开源，官网与 F-Droid 版均声明无广告、不申请联网权限、无内购。
+- **[涟漪（Ripple）](https://ripplefocus.github.io/)** · 🔵 免费闭源 — 给自己或孩子的手机限制 App：按时段屏蔽、每日时长、打开次数上限，放松规则要等 15 分钟或输解锁码。 · *Android / iOS*
+  - 💬 闭源，免费无广告无内购，不用注册，设置只存在手机上；会上报匿名随机编号的每日打开统计（隐私政策有写）。iPhone 版只有按时段屏蔽，只提供 .ipa 安装包，不在 App Store。没有远程管理。
 
 ## 🌍 在线服务 · 自建服务
 
